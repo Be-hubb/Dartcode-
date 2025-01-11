@@ -119,8 +119,8 @@ class LoginPage extends StatelessWidget {
                         },
                         style: ElevatedButton.styleFrom(
                           minimumSize: Size(double.infinity, 50),
-                          backgroundColor: Colors.grey[300], // Updated parameter
-                          foregroundColor: Colors.black, // Replaces onPrimary
+                          backgroundColor: Colors.grey[300],
+                          foregroundColor: Colors.black,
                           shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(10),
                           ),
@@ -221,5 +221,12 @@ class _ChatPageState extends State<ChatPage> {
     );
   }
 }
+
+
+                
+              
+                  
+
+
 
 
